@@ -19,5 +19,8 @@ android {
 
 dependencies {
     compile files('libs/IOIOLibCore-5.07.jar')
-    compile files('libs/IOIOLibPC-5.07.jar')
+    compile(name:'IOIOLibAndroid-release', ext:'aar')
+    compile(name:'IOIOLibAndroidAccessory-release', ext:'aar')
+    compile(name:'IOIOLibAndroidBluetooth-release', ext:'aar')
+    compile(name:'IOIOLibAndroidDevice-release', ext:'aar')
 }

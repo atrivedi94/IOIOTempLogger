@@ -9,6 +9,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/IOIOLibAndroid-release" />
+            <option value="$PROJECT_DIR$/IOIOLibAndroidAccessory-release" />
+            <option value="$PROJECT_DIR$/IOIOLibAndroidBluetooth-release" />
+            <option value="$PROJECT_DIR$/IOIOLibAndroidDevice-release" />
             <option value="$PROJECT_DIR$/IOIOLibCore-5.07" />
             <option value="$PROJECT_DIR$/IOIOLibPC-5.07" />
             <option value="$PROJECT_DIR$/app" />

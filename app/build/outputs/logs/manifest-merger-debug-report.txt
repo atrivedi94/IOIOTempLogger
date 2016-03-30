@@ -25,10 +25,12 @@ ADDED from AndroidManifest.xml:5:5
 		INJECTED from AndroidManifest.xml:0:0
 uses-permission#android.permission.BLUETOOTH
 ADDED from AndroidManifest.xml:6:5
+MERGED from :IOIOLibAndroidBluetooth-release::7:5
 	android:name
 		ADDED from AndroidManifest.xml:6:22
 uses-permission#android.permission.INTERNET
 ADDED from AndroidManifest.xml:7:5
+MERGED from :IOIOLibAndroid-release::7:5
 	android:name
 		ADDED from AndroidManifest.xml:7:22
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
@@ -57,3 +59,19 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:14:17
 	android:name
 		ADDED from AndroidManifest.xml:14:27
+android:uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from AndroidManifest.xml:2:1 reason: ioio.lib has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from AndroidManifest.xml:2:1 reason: ioio.lib requested WRITE_EXTERNAL_STORAGE
+uses-feature#android.hardware.usb.accessory
+ADDED from :IOIOLibAndroidAccessory-release::7:5
+	android:required
+		ADDED from :IOIOLibAndroidAccessory-release::9:9
+	android:name
+		ADDED from :IOIOLibAndroidAccessory-release::8:9
+uses-feature#android.hardware.usb.host
+ADDED from :IOIOLibAndroidDevice-release::7:5
+	android:required
+		ADDED from :IOIOLibAndroidDevice-release::9:9
+	android:name
+		ADDED from :IOIOLibAndroidDevice-release::8:9
