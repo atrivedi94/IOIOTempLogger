@@ -39,8 +39,8 @@ import android.widget.ToggleButton;
 public class MainActivity extends AbstractIOIOActivity implements OnCheckedChangeListener {
 	
 	private final static long SAMPLE_PERIOD = 10000; // 10 seconds
-	private static final int PLUS_PIN = 27;//44;
-	private static final int GND_PIN = 25; //46;
+	private static final int PLUS_PIN = 28;//44;
+	private static final int GND_PIN = 27; //46;
 	private static final int INPUT_PIN = 35; //45;
 	
 	private TextView temperature_;
@@ -106,10 +106,14 @@ public class MainActivity extends AbstractIOIOActivity implements OnCheckedChang
 		protected void loop() throws ConnectionLostException {
 			try {
 				float v = inputPin_.getVoltage();
+				float voltsPerDegree = 0.02f;
 				String units = "C";
-				float temp = (v - 0.5f) * 100.0f; 
+				//float temp = (v - 0.5f) * 100.0f;
+				float temp = v  / voltsPerDegree;
+				//float temp = v;
 				if (radioF_.isChecked()) {
-					temp = temp * 9.0f / 5.0f + 32.0f; 
+					//temp = temp * 9.0f / 5.0f + 32.0f;
+					temp = ((v / voltsPerDegree)  * 9.0f / 5.0f) + 32;
 					units = "F";
 				}
 				// round to 1 dp
