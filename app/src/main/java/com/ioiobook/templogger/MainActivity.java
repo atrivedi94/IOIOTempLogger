@@ -39,9 +39,9 @@ import android.widget.ToggleButton;
 public class MainActivity extends AbstractIOIOActivity implements OnCheckedChangeListener {
 	
 	private final static long SAMPLE_PERIOD = 10000; // 10 seconds
-	private static final int PLUS_PIN = 44;
-	private static final int GND_PIN = 46;
-	private static final int INPUT_PIN = 45;	
+	private static final int PLUS_PIN = 27;//44;
+	private static final int GND_PIN = 25; //46;
+	private static final int INPUT_PIN = 35; //45;
 	
 	private TextView temperature_;
 	private RadioButton radioF_;
