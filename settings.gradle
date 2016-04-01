@@ -1,1 +1,1 @@
-include ':app', ':IOIOLibCore-5.07', ':IOIOLibPC-5.07', ':IOIOLibAndroid-release', ':IOIOLibAndroidAccessory-release', ':IOIOLibAndroidBluetooth-release', ':IOIOLibAndroidDevice-release'
+include ':IOIOLibAndroid-release', ':IOIOLibAndroidAccessory-release', ':IOIOLibAndroidBluetooth-release', ':IOIOLibAndroidDevice-release', ':IOIOLibCore-5.07', ':IOIOLibPC-5.07', ':app'

@@ -2,39 +2,39 @@
 <items version="2" >
 
     <item
-        jar="/Users/melissaregalia/AndroidStudioProjects/IOIOTempLogger/app/build/intermediates/exploded-aar/IOIOLibAndroidDevice-release/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9ad262bc3131b4f369d6c13240ec9cfac6278732">
-        <dex dex="/Users/melissaregalia/AndroidStudioProjects/IOIOTempLogger/app/build/intermediates/pre-dexed/debug/classes-59d15e5d0c9884cffc3f8043ffda51bda3831d4d.jar" />
-    </item>
-    <item
-        jar="/Users/melissaregalia/AndroidStudioProjects/IOIOTempLogger/app/build/intermediates/exploded-aar/IOIOLibAndroidBluetooth-release/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="86d0c1118daa9f0f67304864c4603d1c55092461">
-        <dex dex="/Users/melissaregalia/AndroidStudioProjects/IOIOTempLogger/app/build/intermediates/pre-dexed/debug/classes-86e34c4a0c4c9805b898ef25577fc1bd52dbf4bb.jar" />
-    </item>
-    <item
-        jar="/Users/melissaregalia/AndroidStudioProjects/IOIOTempLogger/app/build/intermediates/exploded-aar/IOIOLibAndroid-release/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="560f73c668e2dc95526f06d9a684fad99867f01b">
-        <dex dex="/Users/melissaregalia/AndroidStudioProjects/IOIOTempLogger/app/build/intermediates/pre-dexed/debug/classes-5f8213eba55bb6af756505cb8d32f98302932fee.jar" />
-    </item>
-    <item
-        jar="/Users/melissaregalia/AndroidStudioProjects/IOIOTempLogger/app/build/intermediates/exploded-aar/IOIOLibAndroidAccessory-release/jars/classes.jar"
+        jar="C:\Users\Akanksha\Documents\IOIOTempLogger\app\build\intermediates\exploded-aar\IOIOLibAndroidAccessory-release\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="2e70120231d632313bd764c5ac45da1d87c6acd7">
-        <dex dex="/Users/melissaregalia/AndroidStudioProjects/IOIOTempLogger/app/build/intermediates/pre-dexed/debug/classes-108dd8b9829e02e70e1dcf9e0f0c3bb5326a8b67.jar" />
+        <dex dex="C:\Users\Akanksha\Documents\IOIOTempLogger\app\build\intermediates\pre-dexed\debug\classes-71ed46ca5e6173ae4f0cfd418586e117e38f953f.jar" />
     </item>
     <item
-        jar="/Users/melissaregalia/AndroidStudioProjects/IOIOTempLogger/app/libs/IOIOLibCore-5.07.jar"
+        jar="C:\Users\Akanksha\Documents\IOIOTempLogger\app\build\intermediates\exploded-aar\IOIOLibAndroidDevice-release\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9ad262bc3131b4f369d6c13240ec9cfac6278732">
+        <dex dex="C:\Users\Akanksha\Documents\IOIOTempLogger\app\build\intermediates\pre-dexed\debug\classes-82e8d99a3cbf3ab4df05ad5ee60cc4c4b0dab67b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Akanksha\Documents\IOIOTempLogger\app\build\intermediates\exploded-aar\IOIOLibAndroid-release\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="560f73c668e2dc95526f06d9a684fad99867f01b">
+        <dex dex="C:\Users\Akanksha\Documents\IOIOTempLogger\app\build\intermediates\pre-dexed\debug\classes-2890d9b8f165c55793585d857a0f81f407b13863.jar" />
+    </item>
+    <item
+        jar="C:\Users\Akanksha\Documents\IOIOTempLogger\app\build\intermediates\exploded-aar\IOIOLibAndroidBluetooth-release\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="86d0c1118daa9f0f67304864c4603d1c55092461">
+        <dex dex="C:\Users\Akanksha\Documents\IOIOTempLogger\app\build\intermediates\pre-dexed\debug\classes-dde237fe078ee4118b05acb1f202315f842bddab.jar" />
+    </item>
+    <item
+        jar="C:\Users\Akanksha\Documents\IOIOTempLogger\app\libs\IOIOLibCore-5.07.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="34f07b578c6819579415ddbfc6c418c6008f7ef2">
-        <dex dex="/Users/melissaregalia/AndroidStudioProjects/IOIOTempLogger/app/build/intermediates/pre-dexed/debug/IOIOLibCore-5.07-b3d6e137a2ce3f76fff476fe41cd05c755ed36d7.jar" />
+        <dex dex="C:\Users\Akanksha\Documents\IOIOTempLogger\app\build\intermediates\pre-dexed\debug\IOIOLibCore-5.07-d386565c0130b10a00f245013124ab95ce998968.jar" />
     </item>
 
 </items>
